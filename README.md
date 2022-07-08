@@ -1,4 +1,5 @@
 # Dockerized Beancount & Fava
+https://hub.docker.com/r/kaze00/fava
  - Based on python:3.10-slim
  - Nginx reverse proxy with Basic Authentication
 
