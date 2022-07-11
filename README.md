@@ -20,6 +20,7 @@ docker run -d -p 80:80 \
  --restart=always \
  -v /path/to/ledger:/beancount \
  -e BEANCOUNT_FILE=/beancount/file.beancount \
- -e BASIC_USERNAME=Joe -e BASIC_PASSWORD=SuperStrongPassword1 \
- kaze001/fava:latest
+ -e BASIC_USERNAME=Joe \
+ -e BASIC_PASSWORD=SuperStrongPassword1 \
+ kaze00/fava:latest
  ```
